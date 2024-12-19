@@ -151,3 +151,75 @@ s+shift+k = move  up,
 1. increase or decrease size
 prefix hjkl = resize right, down, up, right (you have to fast type hjkl )
 ```
+
+# Tmux Tutorial: Terminal Multiplexer
+
+Tmux is a terminal multiplexer that allows you to manage multiple terminal sessions efficiently. It supports **sessions**, **windows**, and **panes**, making multitasking in the terminal seamless.
+
+## Key Concepts
+
+1. **Session**: A collection of windows.
+2. **Window**: A collection of panes within a session.
+3. **Pane**: A split view within a window.
+
+> **Note**: In this guide, the prefix key is remapped to `;`. Press `;` before any keybinding mentioned below.
+
+---
+
+## General Keybindings
+
+- **See all keybindings**: `prefix ?`
+
+---
+
+## Sessions Tutorial
+
+### Manage Sessions
+
+1. **See all sessions**: `prefix s`
+2. **Switch to the last-used session**: `prefix i`
+3. **Switch to a specific session (e.g., `cfg`)**: `prefix b`
+4. **Create a new session**:  
+   Type `sess sessionName` in the terminal.
+
+---
+
+## Windows Tutorial
+
+### Manage Windows
+
+1. **Create a new window**: `prefix c`
+2. **Switch to a specific window (0/1/2/3/4/5)**: `prefix 0`, `prefix 1`, etc.
+3. **Switch to the last-used window**: `prefix f`
+4. **Switch to the previous window**: `prefix p`
+5. **Switch to the next window**: `prefix n`
+6. **Rename the current window**: `prefix ,`
+
+---
+
+## Panes Tutorial
+
+### Manage Panes
+
+1. **Create a vertical pane (below current)**: `prefix a`
+2. **Create a horizontal pane (right of current)**: `prefix v`
+3. **Change focus between panes**:  
+   Use `Ctrl + h` (left), `Ctrl + j` (down), `Ctrl + k` (up), `Ctrl + l` (right).
+4. **Kill the current pane**: `prefix x`
+
+---
+
+## Resizing Panes
+
+### Resize Panes
+
+1. Use `prefix hjkl` to resize panes:
+   - `h`: Resize left
+   - `j`: Resize down
+   - `k`: Resize up
+   - `l`: Resize right  
+     **Note**: Type `hjkl` quickly after pressing the prefix key.
+
+---
+
+This guide covers essential Tmux operations for managing sessions, windows, and panes. Use these shortcuts to enhance your terminal productivity.
