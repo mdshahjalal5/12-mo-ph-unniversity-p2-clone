@@ -105,19 +105,49 @@ s+shift+k = move  up,
 
 ```
 
-### See all sessions
+## Tmux Sessions and windows tutorial
 
-( in our pc prefix is f3 and f3 is remapped with semicolon ; \*\* that means you have press ; )
-prefix then s
+( in our pc prefix is f3 and f3 is remapped with semicolon ; \*\* that means you have to press ; )
+
+### see all the keybindings( keyboard shortcuts ) = prefix ?
 
 ```
 1. see  the existing sessions: prefix  press s
 ** prefix i = switch(go ) to the last used session
 ** prefix b = switch to the cfg session
 2. create a new session, type  "sess sessionName"
+```
+
+### window tutorial
+
+```
 3. prefix c = create a new window,
 4. prefix 0/1/2/3/4/5 = switch(go) to the 0/1/2/3/4/5th window
 5. prefix f = switch to the last used window,
-6.
+6. prefix p = switch to previous window
+7. prefix n = switch to next window
+8. prefix , = rename the current  window
+9. prefix , = rename the current  window
 
+
+
+
+```
+
+## Tmux pane tutorial
+
+```
+1. prefix a = create a new vertical pane( create a new pane below the current pane )
+2. prefix v = create a new horizontal  pane( create a new pane right side of  the current pane )
+3. ctrl + h, j, k, l = change cursor focus left, down, up, right,
+4. prefix x = kill the current pane
+
+```
+
+## Tmux resizing panes
+
+```
+
+1. increase or decrease size
+prefix hjkl = resize right, down, up, right (you have to fast type hjkl )
 ```
