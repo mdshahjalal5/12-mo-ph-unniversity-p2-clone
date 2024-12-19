@@ -107,4 +107,17 @@ s+shift+k = move  up,
 
 ### See all sessions
 
+( in our pc prefix is f3 and f3 is remapped with semicolon ; \*\* that means you have press ; )
 prefix then s
+
+```
+1. see  the existing sessions: prefix  press s
+** prefix i = switch(go ) to the last used session
+** prefix b = switch to the cfg session
+2. create a new session, type  "sess sessionName"
+3. prefix c = create a new window,
+4. prefix 0/1/2/3/4/5 = switch(go) to the 0/1/2/3/4/5th window
+5. prefix f = switch to the last used window,
+6.
+
+```
