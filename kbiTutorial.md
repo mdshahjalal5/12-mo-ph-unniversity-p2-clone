@@ -1,3 +1,5 @@
+--w: 19/12/2024 04:59 PM Thu GMT+6 Sharifpur, Gazipur, Dhaka
+
 ## keyboard remapping by keyd application
 
 ```
@@ -92,3 +94,17 @@ s+shift+j = move  down,
 s+shift+k = move  up,
 
 ```
+
+--w: 19/12/2024 04:59 PM Thu GMT+6 Sharifpur, Gazipur, Dhaka
+
+# Tmux = terminal multiplexer tutorial
+
+```
+** seop = session, window, pane,
+1. sesssion can hold multiple windows, each window can hold multiple panes,
+
+```
+
+### See all sessions
+
+prefix then s
