@@ -1,3 +1,5 @@
+# on off nvim motion alt-s
+
 # Basic Neovim Motions and Editing Cheat Sheet
 
 ## Character Motions
