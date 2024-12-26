@@ -9,6 +9,8 @@
 
 - **`j`** - Move down one line.
 - **`k`** - Move up one line.
+- **`gg`** - Go top of the file.
+- **`G`** - Go bottom of the file.
 
 ## Word Motions
 
