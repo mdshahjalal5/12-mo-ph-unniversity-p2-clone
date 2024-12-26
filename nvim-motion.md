@@ -11,6 +11,8 @@
 - **`k`** - Move up one line.
 - **`gg`** - Go top of the file.
 - **`G`** - Go bottom of the file.
+- **`u`** - undo changes.
+- **`c-r(ctrl-r)`** - redo changes.
 
 ## Word Motions
 
