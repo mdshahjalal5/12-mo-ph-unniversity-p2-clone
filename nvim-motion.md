@@ -13,7 +13,8 @@
 - **`G`** - Go bottom of the file.
 - **`u`** - undo changes.
 - **`c-r(ctrl-r)`** - redo changes.
-- **`f desired character`** - go to the desired character.
+- **`f desired character`** - go to the desired character. it will only go forward
+- **`F desired character`** - go to the desired character. it will only go backward
 
 ## Word Motions
 
