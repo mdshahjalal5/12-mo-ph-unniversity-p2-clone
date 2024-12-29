@@ -16,6 +16,9 @@
 - **`f desired character`** - go to the desired character. it will only go forward
 - **`F desired character`** - go to the desired character. it will only go backward
 
+- **`r`** - Replace a single character under the cursor with another character.
+- **`x`** - Deletes the character under the cursor
+
 ## Word Motions
 
 - **`w`** - Move to the start of the next word.
