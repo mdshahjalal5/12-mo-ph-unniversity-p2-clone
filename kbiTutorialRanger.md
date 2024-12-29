@@ -5,7 +5,12 @@
 ```
 1. open ranger :type r then   enter
 2. go to the web2 location(web2 dir / web 2 path): press xk
-3. create a new folder: press xf then type space folder name enter
-4.
+3. create a new folder: press xf
+4. open with vs code: xx
+5. open with nautilus(the file manager you first  used ) filemanager: xo
+6. open with google-chrome : xt
+
+
+
 
 ```
